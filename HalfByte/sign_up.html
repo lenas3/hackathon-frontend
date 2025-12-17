@@ -15,10 +15,21 @@
     <div class="header">
         <a href="sign_in.html"><img src="images/logo.png"></a>
             <div class="text-box">
-                <h1>Welcome Again!</h1>
-                <p>Please enter your information.</p>
+                <h1>Create Your Account</h1>
+                <p>Please enter your information to sign up.</p>
             </div>
             <section class="form-box" aria-label="Sign in form">
+
+                <div class="inputs">
+                    <input type="text" id="name" class="input-field" placeholder=" " required aria-required="true">
+                    <label for="name" class="floating-label">Name-Surname</label>
+                </div>
+                
+                <div class="inputs">
+                    <input type="text" id="username" class="input-field" placeholder=" " required aria-required="true">
+                    <label for="username" class="floating-label">User Name</label>
+                </div>
+                
                 <div class="inputs">
                     <input type="email" id="email" class="input-field" placeholder=" " required aria-required="true">
                     <label for="email" class="floating-label">Email address</label>
@@ -28,18 +39,7 @@
                     <input type="password" id="password" class="input-field" placeholder=" " required aria-required="true">
                     <label for="password" class="floating-label">Password</label>
                 </div>
-
-                <div class="inputs-checkbox-group">
-                    <div class="form-col remember-me">
-                        <input type="checkbox" id="remember-me-checkbox" class="checkbox-field">
-                        <label for="remember-me-checkbox">Remember me</label>
-                    </div>
-                    <div class="form-col">
-                        <a href="#" class="form-link">Forgot Password?</a>
-                    </div>
-                </div>
-
-                <button type="submit" class="form-btn form-btn--submit">Sign In</button>
+                <button type="submit" class="form-btn form-btn--submit">Sign Up</button>
             </section>
         </div>
     </div>
